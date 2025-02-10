@@ -1,0 +1,22 @@
+{
+  "name": "playwright-biosafeapp",
+  "version": "1.0.0",
+  "description": "Este repositorio se basa en la automatizacion de escenarios para la aplicacion Biosafeapp",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnabelTorres10/Playwright-Biosafeapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnabelTorres10/Playwright-Biosafeapp/issues"
+  },
+  "homepage": "https://github.com/AnabelTorres10/Playwright-Biosafeapp#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.1"
+  }
+}
