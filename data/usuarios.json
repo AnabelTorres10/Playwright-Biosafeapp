@@ -1,0 +1,10 @@
+{
+    "usuarios": {
+        "correcto": {
+            "nombre": "Anabel",
+            "contrasena": "Abc123*",
+            "email": "anabelptorres.at+16@gmail.com"
+
+        }
+    }
+}
