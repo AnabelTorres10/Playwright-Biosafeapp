@@ -2,7 +2,7 @@ import { google, Auth} from 'googleapis';
 import path from 'path';
 import fs from 'fs';
 
-const SCOPES = ['https://www.googleapis.com/auth/gmial.readonly'];
+const SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 
 const CREDENTIALS_PATH = path.join(__dirname, './data/credentials.json');
 const TOKEN_PATH = path.join(__dirname, './data/token.json');
