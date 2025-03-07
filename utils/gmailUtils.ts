@@ -4,8 +4,8 @@ import fs from 'fs';
 
 const SCOPES = ['https://www.googleapis.com/auth/gmail.readonly'];
 
-const CREDENTIALS_PATH = path.join(__dirname, './data/credentials.json');
-const TOKEN_PATH = path.join(__dirname, './data/token.json');
+const CREDENTIALS_PATH = path.join(__dirname, '../data/credentials.json');
+const TOKEN_PATH = path.join(__dirname, '../data/token.json');
 
 export async function authenticate(): Promise<Auth.OAuth2Client> {
     if (!fs.existsSync(CREDENTIALS_PATH)){
@@ -40,7 +40,7 @@ export async function getVerificationCode(): Promise<string | null>{
 
     const response = await gmail.users.messages.list({
         userId: 'me',
-        q: 'from:soporte@biosafeapp.com subject: "Codigo de verificaion de Biosafeapp"',
+        q: 'from:soporte@biosafeapp.com subject: "Código de Verificación de BioSafeApp"',
         maxResults: 1,
     });
 

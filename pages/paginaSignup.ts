@@ -29,6 +29,7 @@ export default class paginaSignup {
         await this.confirmarContrasenaInput.fill(user.contrasena);
         await this.botonDeRegistrarse.click();
         await expect(this.registroexitosoAlert).toBeVisible();
+        return mailDeUsuarioUnico;
     }
 
 
